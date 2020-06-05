@@ -45,6 +45,7 @@ window.addEventListener('load', () => {
                 } else {
                     temperatureSpan.textContent = "F";
                     temperatureDegree.textContent = temperature;
+                    console.log("x");
                 }
             } )
 
